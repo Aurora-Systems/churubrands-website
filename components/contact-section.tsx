@@ -48,9 +48,9 @@ export function ContactSection() {
 
     try {
       // EmailJS configuration - these should be set as environment variables
-      const serviceId = process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID || ""
-      const templateId = process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID || ""
-      const publicKey = process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY || ""
+      const serviceId = "service_oiz0u3d"
+      const templateId = "template_vmybs3x"
+      const publicKey = "d-fRPkdebC7HLpDig"
 
       if (!serviceId || !templateId || !publicKey) {
         throw new Error("EmailJS configuration is missing. Please set environment variables.")
