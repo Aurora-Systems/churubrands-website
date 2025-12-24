@@ -12,24 +12,7 @@ export const metadata: Metadata = {
   title: "Churubrands | End-to-End Poultry Production",
   description:
     "Zimbabwe's premier poultry production facility - From eggs to your table. Quality chicken products at every stage.",
-  generator: "aurorasystems.co.zw",
-  icons: {
-    icon: [
-      {
-        url: "/icon-light-32x32.png",
-        media: "(prefers-color-scheme: light)",
-      },
-      {
-        url: "/icon-dark-32x32.png",
-        media: "(prefers-color-scheme: dark)",
-      },
-      {
-        url: "/icon.svg",
-        type: "image/svg+xml",
-      },
-    ],
-    apple: "/apple-icon.png",
-  },
+  generator: "aurorasystems.co.zw"
 }
 
 export default function RootLayout({
